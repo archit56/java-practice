@@ -5,6 +5,7 @@ class _01_leap_year {
         Scanner sc = new Scanner(System.in);
 
         int year;
+        System.out.println("Enter the year: ");
         year = sc.nextInt();
 
         if (year%4 == 0) {
